@@ -15,7 +15,5 @@ Paste any study paragraph, and the app will:
 - Google Gemini Pro API via OpenRouter
 - Prompt Engineering
 
----
 
-## 💡 Prompt Used
 
