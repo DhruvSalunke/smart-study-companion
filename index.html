@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Study Companion</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background-color: #f0f4f8;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      padding: 1rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      padding: 0.8rem 1.2rem;
+      font-size: 1rem;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+    .output {
+      background: white;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Smart Study Companion</h1>
+
+  <textarea id="inputText" placeholder="Paste your study material here..."></textarea>
+  <button>Generate</button>
+
+
+  <div class="output section" id="summarySection">
+    <h3>Summary:</h3>
+    <p id="summary"></p>
+  </div>
+
+  <div class="output section" id="explanationSection">
+    <h3>Simple Explanation:</h3>
+    <p id="explanation"></p>
+  </div>
+
+  <div class="output section" id="questionsSection">
+    <h3>Sample Questions:</h3>
+    <p id="questions"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
