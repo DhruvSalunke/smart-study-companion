@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "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"; 
+const GEMINI_API_KEY = "API-KEY"; 
 
 const inputTextElement = document.getElementById("inputText");
 const generateButton = document.querySelector("button");
